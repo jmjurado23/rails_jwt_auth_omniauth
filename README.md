@@ -1,7 +1,5 @@
 # RailsJwtAuthOmniauth
 
-![Gem Version](https://badge.fury.io/rb/rails_jwt_auth_omniauth.svg)
-
 Addon for rails_jwt_auth gem. Add omniauth capabilities to gem
 
 > This gem require rails_jwt_auth 2.x version
@@ -44,7 +42,7 @@ You can edit configuration options into `config/initializers/rails_jwt_auth_omni
 | Option                                    | Default value              | Description                                                            |
 | ----------------------------------        | ----------------           | ---------------------------------------------------------------------- |
 
-| omniauth                                  | `nil`                      | Allow add omniauths providers
+| omniauth                                  | `nil`                      | Allow add omniauths providers |
 
 ## Modules
 
@@ -76,7 +74,7 @@ end
 class User
   include Mongoid::Document
   include RailsJwtAuth::Authenticatable
-  include RailsJwtAuth::Omniauthable
+  include RailsJwtAuthOmniauth::Omniauthable
 
   field :email, type: String
 
