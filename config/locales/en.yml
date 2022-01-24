@@ -1,0 +1,6 @@
+en:
+  rails_jwt_auth:
+    models:
+      omniauthable:
+        from_omniauth:
+          not_implemented: "You must implement 'self.from_omniauth' in your '%{model}' model"
