@@ -41,8 +41,7 @@ You can edit configuration options into `config/initializers/rails_jwt_auth_omni
 
 | Option                                    | Default value              | Description                                                            |
 | ----------------------------------        | ----------------           | ---------------------------------------------------------------------- |
-
-| omniauth                                  | `nil`                      | Allow add omniauths providers |
+| omniauth                                  | `nil`                      | Allow add omniauths providers                                          |
 
 ## Modules
 
