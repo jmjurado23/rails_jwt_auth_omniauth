@@ -101,7 +101,7 @@ gem 'omniauth-google-oauth2'
 Configuration providers:
 
 ```ruby
-# config/initialize/rails_jwt_auth.rb
+# config/initialize/rails_jwt_auth_omniauth.rb
 RailsJwtAuthOmniauth.setup do |config|
   # ...
   config.omniauth :google_oauth2, ENV['GOOGLE_CLIENT_ID'], ENV['GOOGLE_CLIENT_SECRET'], {
